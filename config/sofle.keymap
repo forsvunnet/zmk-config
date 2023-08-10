@@ -60,7 +60,7 @@
 &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1   &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4             &trans    &trans    &trans   &trans    &trans  &trans
 &trans     &kp INS      &trans         &trans       &trans       &trans                   &kp PG_DN &kp PG_UP &trans   &trans    &kp N0  &trans
 &trans     &trans       &trans         &trans       &kp DLLR     &trans                   &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT &kp DEL &kp BSPC
-&trans     &trans       &kp UNDERSCORE &trans       &trans       &trans  &trans   &trans  &trans    &trans    &trans   &trans    &trans  &trans
+&trans     &kp TILDE    &kp UNDERSCORE &trans       &trans       &trans  &trans   &trans  &trans    &trans    &trans   &trans    &trans  &trans
                         &trans         &trans       &trans       &trans  &trans   &trans  &trans    &trans    &trans   &trans
             >;
 
