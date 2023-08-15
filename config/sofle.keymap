@@ -54,7 +54,7 @@
             bindings = <
 &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1   &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4             &trans    &trans    &trans   &trans    &trans   &trans
 &trans     &kp INS      &trans         &trans       &trans       &trans                   &kp PG_DN &kp PG_UP &kp ESC  &kp ESC   &kp BSPC &trans
-&trans     &kp TAB      &kp GRAVE      &PIPE        &kp DLLR     &trans                   &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT &kp SQT  &kp BSPC
+&trans     &kp TAB      &kp GRAVE      &kp PIPE     &kp DLLR     &trans                   &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT &kp SQT  &kp BSPC
 &trans     &kp TILDE    &kp UNDERSCORE &trans       &trans       &trans  &trans   &trans  &kp LBKT  &kp RBKT  &trans   &trans    &trans   &trans
                         &trans         &trans       &trans       &trans  &trans   &trans  &trans    &trans    &trans   &trans
             >;
