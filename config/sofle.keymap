@@ -53,11 +53,11 @@
 
         raise_layer {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans     &trans     &trans   &trans         &trans    &trans
-&trans      &kp INS       &trans          &trans        &kp SQT       &trans                          &kp PG_DN  &kp PG_UP  &kp ESC  &kp BACKSPACE  &kp BSPC  &trans
-&trans      &kp TAB       &kp GRAVE       &kp PIPE      &kp DLLR      &trans                          &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT      &kp SQT   &kp BSPC
-&trans      &kp TILDE     &kp UNDERSCORE  &kp SQT       &kp LPAR      &kp RPAR      &trans    &trans  &kp LBKT   &kp RBKT   &trans   &trans         &trans    &trans
-                          &trans          &trans        &trans        &trans        &trans    &trans  &trans     &trans     &trans   &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans     &trans     &trans    &trans         &trans    &trans
+&trans      &kp N1        &kp N2          &kp N3        &kp N4        &kp N5                          &kp PG_DN  &kp PG_UP  &kp ESC   &kp BACKSPACE  &kp BSPC  &trans
+&trans      &kp EXCL      &kp AT          &kp HASH      &kp DLLR      &kp PERCENT                     &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT      &kp SQT   &kp BSPC
+&trans      &kp TILDE     &kp UNDERSCORE  &kp SQT       &kp LPAR      &kp RPAR      &trans    &trans  &kp LBKT   &kp RBKT   &kp PIPE  &kp GRAVE      &trans    &trans
+                          &trans          &trans        &trans        &trans        &trans    &trans  &trans     &trans     &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
