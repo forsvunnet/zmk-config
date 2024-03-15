@@ -33,6 +33,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        cmd_shift_del {
+            bindings = <&kp LG(LS(DELETE))>;
+            key-positions = <53 37 22>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
