@@ -40,6 +40,21 @@
             bindings = <&kp LG(LS(DELETE))>;
             key-positions = <53 37 22>;
         };
+
+        z_command {
+            bindings = <&kp LS(LEFT_COMMAND)>;
+            key-positions = <37 52>;
+        };
+
+        z_question {
+            bindings = <&kp QMARK>;
+            key-positions = <37 48>;
+        };
+
+        z_enter {
+            bindings = <&kp LS(ENTER)>;
+            key-positions = <37 54>;
+        };
     };
 
     keymap {
