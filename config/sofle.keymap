@@ -44,16 +44,19 @@
         z_command {
             bindings = <&kp LS(LEFT_COMMAND)>;
             key-positions = <37 52>;
+            layers = <0>;
         };
 
         z_question {
             bindings = <&kp QMARK>;
             key-positions = <37 48>;
+            layers = <0>;
         };
 
         z_enter {
             bindings = <&kp LS(ENTER)>;
             key-positions = <37 54>;
+            layers = <0>;
         };
     };
 
